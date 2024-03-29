@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Quiz">
+    <meta name="author" content="Jalielle Curtis">
+    <title>HTML Quiz | WDD 130</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <!--HTML Quiz: q1- text input "How do you call the element that embeds pictures in your page?" q2- Text area question "What does HTML stand for and how does that relate to what it does?"-->
+    <!--q3- Select area "Which of the following are the correct way to use a class selector on a stylesheet?" q4- number type "What heading number is the largest?"-->
+    <main>
+        <h1>HTML & CSS Quiz | WDD 130</h1>
+        <form>
+            <div class="q1">
+                <label for="q1">1. How do you call the element that embeds pictures in your page?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="q2">
+                <label for="q2">2. What does HTML stand for and how does that relate to what it does?</label>
+                <textarea id="q2" name="q2" rows="4" cols="40">Enter answer here...</textarea>
+            </div>
+            <div class="q3">
+                <label for="q3">3. Which of the following are the correct way to use class="fun" class selector on a stylesheet?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Select below</option>
+                    <option value="**fun">**fun</option>
+                    <option value="--fun">--fun</option>
+                    <option value=".fun">.fun</option>
+                </select>
+            </div>
+            <div class="q4">
+                <label for="q4">4. What heading number is the largest?</label>
+                <input type="number" id="q4" name="q4" min="1" max="6">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit Quiz">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

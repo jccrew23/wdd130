@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@200..800&display=swap');
+body {
+    font-family: Dosis;
+    margin: 0;
+    padding: 10px;  
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    grid-gap: 5px;
+}
+h1 {
+    font-family: Abril FatFace;
+}
+
+.q1 {
+    display: grid;
+    justify-content: left;
+}
+.q2 {
+    display: grid;
+    justify-content: left;
+}
+.q3 {
+    display: grid;
+    justify-content: left;
+}
+.q4 {
+    display: grid;
+    justify-content: left;
+    grid-template-rows: 1fr 1fr;
+}
+.submit {
+    text-align: center;
+}
+
