@@ -27,6 +27,11 @@ h1.history{
     right: 400px;
     text-align: center;
 }
+h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    color: var(--primary-color)
+}
 h2{
     font-family: var(--heading-font);
     text-align: center;
@@ -55,14 +60,19 @@ article {
     width: 1200px;
     top: 210px;
     right: 100px;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     text-align: center;
     opacity: 90%;
 }
-img.right {
+.employee img {
     float: right;
     width: 100px;
     height: auto;
+}
+.employee p {
+    color: var(--secondary-color);
+    font-size:  1.5rem;
+    margin-top: 50px;
 }
 header {
     display: grid;
@@ -153,12 +163,14 @@ h1.contact{
     grid-column: 1/3;
     background-color: var(--accent2-color);
     font-family: var(--heading-font);
-    justify-content: center;
 }
 .address, .email, .phone{
     display: grid;
     grid-template-columns: 25% 75%;
     justify-content: center;
+}
+.info {
+    
 }
 h3{
     font-family: var(--heading-font);
@@ -264,7 +276,7 @@ hr {
 .kids img{
     width: 400px;
 }
-.info {
+.information {
     width:  900px;
     position: absolute;
     top: 1400px;
@@ -272,12 +284,8 @@ hr {
     background-color: var(--accent1-color);
     opacity: 80%;
 }
-.info p{
+.information p{
     color: var(--secondary-color)
-}
-*   figcaption {
-    font-family: var(--heading-font);
-    margin-left: 90px;
 }
 .call {
     display: flex;
