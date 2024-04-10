@@ -169,9 +169,6 @@ h1.contact{
     grid-template-columns: 25% 75%;
     justify-content: center;
 }
-.info {
-    
-}
 h3{
     font-family: var(--heading-font);
 }
@@ -242,8 +239,6 @@ input[type=submit] {
 }
 .plan {
     grid-column: 2/3;
-    border: 2px solid var(--accent3-color);
-    display:    relative;
     width:  auto;
     height: 400px
 }
